@@ -1,23 +1,29 @@
-//foolaround1.v
+//counter in verilog
+//4 bit counter
+module counter(reset,clk,cnt_ena, count, tc);
+//inputs
+input	reset;
+input	clk;
+input cnt_ena;
 
-module foolaround1();
-reg free_time;
+//outputss
+output [3:0] count; // ":" gotta remember that!! and the bus length BEFORE!
+output tc;//terminal count
+reg [3:0] count;
+integer yooooooo;
 
-always
-
-//clock stuff
-
-//initial
-begin
-	
-	free_time = 1;
-
-	while (free_time) begin
-		$display ("lolipop");
+//cannot drive WIRE type but reg, interger.
+always @ (posedge clk or posedge reset) // alive all the time.
+if(reset) begin
+	count <= 0;
+end else begin : COUNT //COUNT IS A BLOCK OF CODE
+	while(cnt_ena) begin
+		count <= count + 1;
+		disable COUNT; //disable this block of code.
 	end
 end
-endmodule
 
+endmodule;
 
 //for loop verilog
 // for (i = 0; i < 16; i = i +1) begin
@@ -61,14 +67,43 @@ endmodule
 // end;
 
 // "#" is for time units
-// always begin	
-	// #5 clk = ~clk; //invert clk after 5ns.
-// end;
 	
 	
-//timescale
-//‘timescale 1 ns /  100 ps	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
-
+	
+	
+	
+	
+	
 
