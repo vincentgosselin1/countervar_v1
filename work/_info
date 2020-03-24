@@ -1,0 +1,135 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1/quartus/MyDev/S10_PROJECT4_V1
+vcounter
+!s110 1585006904
+!i10b 1
+!s100 6@5Vfc[14A`KEUB;XD_ZG1
+I^GIzPP8]VPSjaTSo[5PQ>2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1
+w1585006901
+Z2 8C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/simulation/modelsim/counterverilog.v
+Z3 FC:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/simulation/modelsim/counterverilog.v
+L0 3
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1585006904.000000
+Z5 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/simulation/modelsim/counterverilog.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/simulation/modelsim/counterverilog.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+Ecountervar_v1
+Z9 w1584994022
+Z10 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z11 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z12 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R1
+Z13 8C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/countervar_v1.vhd
+Z14 FC:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/countervar_v1.vhd
+l0
+L14
+V[ldNRAbel::NH9TGeGCLK3
+!s100 W40WFYU;J7Dj`lPG:4MUI1
+Z15 OV;C;10.5b;63
+32
+Z16 !s110 1585009990
+!i10b 1
+Z17 !s108 1585009989.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/countervar_v1.vhd|
+Z19 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/countervar_v1.vhd|
+!i113 1
+Z20 o-work work -2002 -explicit
+Z21 tExplicit 1 CvgOpt 0
+Artl
+R10
+R11
+R12
+DEx4 work 13 countervar_v1 0 22 [ldNRAbel::NH9TGeGCLK3
+l34
+L32
+VKXKY8g_?IaMBWFiIoBHZh3
+!s100 U?=ODR;oE?KG0zW;S2T``3
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R20
+R21
+vcounterverilog
+R16
+!i10b 1
+!s100 <OOiQOLgO?XlH;HPED0W`2
+IWKI9z;O1g19ZOj?ikimFK1
+R0
+R1
+w1585009945
+R2
+R3
+L0 3
+R4
+r1
+!s85 0
+31
+Z22 !s108 1585009990.000000
+R5
+R6
+!i113 1
+R7
+R8
+vcounterverilog_tb
+R16
+!i10b 1
+!s100 =93S_bC`gDlalF<TkK`b11
+I>c0[PgSU9Dg]5^X<5P><h3
+R0
+R1
+w1585009957
+8C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/simulation/modelsim/counterverilog_tb.v
+FC:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/simulation/modelsim/counterverilog_tb.v
+L0 3
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/simulation/modelsim/counterverilog_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/simulation/modelsim/counterverilog_tb.v|
+!i113 1
+R7
+R8
+vfoolaround1
+R16
+!i10b 1
+!s100 <;]e3U`4FzcU95S`h:>GE1
+I8P3BnE5IcmQZZ3dZkKdML0
+R0
+R1
+w1585007367
+8C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/simulation/modelsim/foolaround1.v
+FC:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/simulation/modelsim/foolaround1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/simulation/modelsim/foolaround1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/simulation/modelsim/foolaround1.v|
+!i113 1
+R7
+R8

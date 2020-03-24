@@ -69,6 +69,48 @@ endmodule
 //timescale
 //‘timescale 1 ns /  100 ps	
 
+//assign statement is for combinational logic, executes all the time. No sensitivity list.
+//assign out = (enable) ? data : 1'bz;
+//<- tri-state buffer it is.
+
+
+//task and function. Task can have delay , function is combinational logic.
+// function parity;
+// input [31:0] data;
+// integer i;
+// begin
+	// parity = 0;
+	// for (i=0;i<32;i=i+1) begin
+		// parity = parity ^ data[i];
+	// end
+// end
+// endfunction
+
+// task example
+// task load_count;
+	// input [3:0] load_value;
+	// begin
+		// @(negedge clk_50);
+		// $display($time, " << Loading the counter with %h >>", load_value);
+		// load_1 = 1'b0;
+		// count_in = load_value;
+		// @(negedge clk_50);
+		// load_1 = 1'b1;
+	// end
+// endtask
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
