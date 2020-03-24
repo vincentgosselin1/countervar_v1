@@ -1,7 +1,8 @@
 //foolaround2.sv is for SystemVerilog!!!!!
 
 //first lesson : integer and logic literals.
-`timescale 1ns/100ps
+//`timescale 1ns/100ps
+`timescale 100ps/10ps
 module foolaround2 ();
 
 // integer a;
@@ -20,31 +21,74 @@ module foolaround2 ();
 // end
 
 
-real a;
-shortreal b;
+// real a;
+// shortreal b;
 
-initial begin
-	$monitor ("@ %gns a = %e b = %e", $time, a, b);
+// initial begin
+	// $monitor ("@ %gns a = %e b = %e", $time, a, b);
 	
-	for(int i = 0; i<15; i = i + 1) begin
-		#1 $monitor ("SystemVerilog is cool");
-	end
+	// for(int i = 0; i<15; i = i + 1) begin
+		// #1 $monitor ("SystemVerilog is cool");
+	// end
 		
 	
 	// a = '0;
 	// b = 1.0e2;
 	// #1 a = 2e5;
-	//type casting
+	// type casting
 	// #1 b = shortreal'(a);
 	// #1 a = 2.1E-2;
-	//type casting
+	// type casting
 	// #1 b = shortreal'(a);
 	// #5 a = 0;
 	// #5 a = 16'haaaa;
 	
 	// #1 $finish;
 	
-end
+// end
+
+
+//another lesson Time Literals
+// initial begin
+// time a = 55;
+// $monitor ("at %g a = %t", $time, a);
+	// #1 a = 1ns;
+	// #1 a = 300ps;
+// end
+
+
+
+//string literals
+// string a;
+
+// initial begin	
+	// $display ("@ %gns a = %s", $time, a);
+	// a = "hellooooo vince";
+	// $display("a %gns a = %s", $time, a);
+	// #1 a = "byebye";
+	// $display("a %gns a = %s", $time, a);
+// end
+
+//array literals
+
+byte a [0:1][0:2] = '{'{0,1,2}, '{3{8'h9}}};
+
+	initial begin
+		for(int i = 0; i<2; i = i+1) begin
+			for(int j = 0; j<3; j = j+1) begin
+				$display ("a[i][j] = %d", a[i][j]);
+			end
+		end
+	end
+
+//end of coding 20200323.
+
+
+
+
+
+
+
 
 
 
