@@ -4,7 +4,7 @@
 vsim work.counterverilog_tb
 add wave -position insertpoint sim:/counterverilog_tb/U0/*
 
-run 100 ns
+run 500 ns
 wave zoom full
 
 # vsim work.fft_atan2_v1_vhd_tst

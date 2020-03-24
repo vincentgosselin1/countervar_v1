@@ -22,7 +22,7 @@ initial begin
 end	
 	
 always begin
-	#5 clk = !clk; //inversion of clock after 5ns.
+	#1 clk = !clk; //inversion of clock after 1ns. Period is then 2ns -> 500MHZ.
 end
 
 counterverilog U0 (

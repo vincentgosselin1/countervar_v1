@@ -27,6 +27,11 @@ if(reset) begin
 	tc <= 0; //for now.
 end else begin : COUNT //COUNT IS A BLOCK OF CODE
 	while(cnt_ena) begin
+		if (count == 16'hFFFE) begin //about to overflow
+			tc <= 1;
+		end else begin
+			tc <= 0;
+		end
 		count <= count + 1;
 		disable COUNT; //disable this block of code.
 	end
