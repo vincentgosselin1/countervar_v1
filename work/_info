@@ -43,9 +43,9 @@ V[ldNRAbel::NH9TGeGCLK3
 !s100 W40WFYU;J7Dj`lPG:4MUI1
 Z15 OV;C;10.5b;63
 32
-Z16 !s110 1585018399
+Z16 !s110 1585239861
 !i10b 1
-Z17 !s108 1585018399.000000
+Z17 !s108 1585239861.000000
 Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/countervar_v1.vhd|
 Z19 !s107 C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/countervar_v1.vhd|
 !i113 1
@@ -137,13 +137,13 @@ vfoolaround2
 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
 R16
 !i10b 1
-!s100 l;<O?Zj`SlA;4ej@d5O<O1
-IXI0:^XJ0NZ@JTehVmP2:@2
+!s100 T^02PnB>DTYAEG=4k4]d<0
+IE=LzkF6F6b9TA?:7mB=hN3
 R0
 !s105 foolaround2_sv_unit
 S1
 R1
-w1585018393
+w1585239859
 8C:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/simulation/modelsim/foolaround2.sv
 FC:/intelFPGA_lite/17.1/quartus/MyDev/countervar_v1/simulation/modelsim/foolaround2.sv
 L0 6

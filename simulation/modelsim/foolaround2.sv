@@ -71,22 +71,48 @@ module foolaround2 ();
 
 //array literals
 
-byte a [0:1][0:2] = '{'{0,1,2}, '{3{8'h9}}};
+// byte a [0:1][0:2] = '{'{0,1,2}, '{3{8'h9}}};
 
-	initial begin
-		for(int i = 0; i<2; i = i+1) begin
-			for(int j = 0; j<3; j = j+1) begin
-				$display ("a[i][j] = %d", a[i][j]);
-			end
-		end
-	end
+	// initial begin
+		// for(int i = 0; i<2; i = i+1) begin
+			// for(int j = 0; j<3; j = j+1) begin
+				// $display ("a[i][j] = %d", a[i][j]);
+			// end
+		// end
+	// end
 
 //end of coding 20200323.
 
 
 
+//structure literals
+// type define a structure
+// typedef struct {
+	// byte a;
+	// reg b;
+	// shortint unsigned c;
+// } myStruct;
+
+//module struct_literals ();
+
+// myStruct object = '{10,0,100};
+
+//myStruct objectArray[0:1] = '{'{10,0,100},'{11,1,101}};
+// myStruct objectArray[0:1]; //very cool
 
 
+// initial begin
+	// $display ("a = %b b = %b c = %h", object.a, object.b, object.c);
+	// object.a = 15;
+	// $display ("a = %b b = %b c = %h", object.a, object.b, object.c);
+	// object.c = 16'hDEAD;
+	// $display ("a = %b b = %b c = %h", object.a, object.b, object.c);
+	// $display("printing array objets");
+	// $display ("a = %b b = %b c = %h", objectArray[0].a, objectArray[0].b, objectArray[0].c);
+	// $display ("a = %b b = %b c = %h", objectArray[1].a, objectArray[1].b, objectArray[1].c);
+	// objectArray[0].a = 255;
+	// $display ("a = %b b = %b c = %h", objectArray[0].a, objectArray[0].b, objectArray[0].c);
+// end
 
 
 
